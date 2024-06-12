@@ -24,7 +24,7 @@ Desenvolver um Catálogo de Livros que ofereça interação textual (via console
 6. 🖥️ **Exibição de resultados aos usuários**
 
 ## 📺 Demonstração
-[![Video Demonstrativo](link_para_o_video)](link_para_o_video)
+[Video Demonstrativo](https://imgur.com/a/xapcbM0)
 
 ## 💻 Tecnologias Utilizadas
 
