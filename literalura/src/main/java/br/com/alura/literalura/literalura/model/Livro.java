@@ -12,12 +12,7 @@ public class Livro {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long livro_id;
     private String titulo;
-    //    @ManyToMany
-//    @JoinTable(
-//            name = "livro_autor",
-//            joinColumns = @JoinColumn(name = "livro_id"),
-//            inverseJoinColumns = @JoinColumn(name = "autor_id")
-//    )
+
     @ManyToOne
     private Autor autor;
 
@@ -41,13 +36,6 @@ public class Livro {
         this.titulo = titulo;
     }
 
-//    public List<Autor> getAutores() {
-//        return autores;
-//    }
-//
-//    public void setAutores(List<Autor> autores) {
-//        this.autores = autores;
-//    }
 
 
     public Autor getAutor() {
